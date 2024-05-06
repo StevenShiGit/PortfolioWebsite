@@ -18,11 +18,14 @@ const BlogPostIndex = async ({
 }: BlogPostIndexProps): Promise<JSX.Element> => {
   
   const items : { title: string, uid: string, tags: string[], description: string}[]=[
-    {"title": "Chess Club Website", "uid": "https://github.com/StevenShiGit", tags: ["React", "MongoDB", "NextJS", "JavaScript"], "description": 
-    "Infoboard site I made for school's chess club,  where execs would post updates about the club on the site"},
-    {"title": "Stock Sentiment Analayis Dashboard", "uid": "https://github.com/StevenShiGit", tags: ["React", "Pandas", "Flask", "Python"], "description":
-    "Stock dashboard with news sentiment analaysis, using pandas and python backend with React frontend"},
-    {"title": "Platformer Fighting Game", "uid": "https://github.com/StevenShiGit", tags: ["Java", "Swing"], "description":
+    
+    {"title": "Stock Sentiment Analayis Dashboard", "uid": "https://github.com/StevenShiGit", tags: ["React", "Pandas", "Flask", "Python", "REST API", "Tailwind"], "description":
+    "Stock dashboard with news sentiment analaysis and displaying recent news"},
+  {"title": "3D Portfolio Website", "uid": "https://github.com/StevenShiGit", tags: ["React", "Typescript", "Three.JS","GSAP", "Tailwind"], "description":
+  "interactive and fast-paced 2-player fighting game with Java and Swing GUI"},
+  {"title": "School News Website", "uid": "https://github.com/StevenShiGit", tags: ["MongoDB", "NextJS", "NodeJS", "JavaScript"], "description": 
+    "Annoncement and news website I made for my highschool"},
+  {"title": "Platformer Fighting Game", "uid": "https://github.com/StevenShiGit", tags: ["Java", "Swing"], "description":
   "interactive and fast-paced 2-player fighting game with Java and Swing GUI"}
   ]
   

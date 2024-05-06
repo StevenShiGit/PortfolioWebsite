@@ -59,11 +59,12 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
   
   let techArr: {tech_color: string, tech_name: string} [] = [
     {"tech_color": "blue", "tech_name": "React"},
+    {"tech_color": "brown", "tech_name": "MongoDB"},
     {"tech_color": "yellow", "tech_name": "JavaScript"},
     {"tech_color": "green", "tech_name": "Python"},
     {"tech_color": "turquoise", "tech_name": "C++"},
-    {"tech_color": "orange", "tech_name": "Java"},
-    {"tech_color": "magenta", "tech_name": "HTML/CSS"}
+    {"tech_color": "orange", "tech_name": "Java"}
+    
   ]
   return (
     <section
