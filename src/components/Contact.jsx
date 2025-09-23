@@ -24,7 +24,7 @@ export default function Contact() {
               <img src="/logos/github3.webp" alt="GitHub" className="social-logo" />
             </a>
             <a 
-              href="www.linkedin.com/in/steven-shi-ba64aa30b" 
+              href="https://www.linkedin.com/in/steven-shiuw" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"
