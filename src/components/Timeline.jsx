@@ -11,21 +11,20 @@ function getInitials(name) {
 const roles = [
   {
     company: 'Canada Life',
-    title: 'Software Engineer Intern',
-    period: 'Sep 2024 - Dec 2024 • 4 mos',
+    title: 'Software Engineer',
+    period: 'May 2025 - Aug 2025 • 4 mos',
     logo: 'logos/canadalife-logo.jpeg',
     bullets: [
-      'Improved the Consent API’s GET endpoint to support agreement level tracking and recurring biennial consent, reducing redundant consent requests and ensuring compliance with Government of Canada privacy regulations for over 1.5 million members.',
-      'Helped develop a backend microservice using Java Spring Boot to manage successor holders and beneficiaries for group wealth plans, allowing efficient plan ownership transitions for over 1.2 million users.',
-      'Enhanced API reliability by using PostgreSQL, Postman, and Rancher logs from Kubernetes clusters to test and debug over 20 API endpoints.',
-      'Streamlined microservice delivery by implementing automated GitLab CI/CD pipelines to build Docker images and deploy them to AWS EKS, greatly reducing manual overhead.',
-      'Created unit tests using JUnit5 and Mockito for various APIs, increasing code coverage by up to 40%.'
+      'Developed an internal private markets capital management API using Django and PostgreSQL, enabling portfolio teams to oversee over $7.9 billion in private debt investments and automate capital call processes.',
+      'Integrated observability and alerting into a wealth management transfer system using Kafka, Prometheus, and Grafana, helping detect bottlenecks and automate alerts for over 100 daily ownership transfers.',
+      'Improved the Consent API microservice with Java Spring Boot and PostgreSQL to support agreement-level tracking and recurring biennial consent, reducing redundant consent requests and ensuring compliance with privacy regulations for over 1.5 million members.',
+      'Streamlined microservice delivery by implementing automated GitLab CI/CD pipelines to build Docker images and deploy them to AWS EKS, greatly reducing manual overhead.'
     ]
   },
   {
     company: 'Oak Ridges Heart Clinic',
-    title: 'Senior Software Engineer',
-    period: '2023 — Present',
+    title: 'Full Stack Developer',
+    period: 'Sep 2024 - Dec 2024 • 4 mos',
     logo: 'logos/ohrc-logo3.png',
     bullets: [
       'Developed a Python program to automate the conversion of patient files to HL7 format using OpenAI API and prompt engineering, reducing document processing time from 3 minutes to 15 seconds.',
